@@ -230,7 +230,7 @@ header #logo{
   }
 
 #official-sponsors{
-    padding-top: 10rem;
+    padding-top: 15rem;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -238,3 +238,35 @@ header #logo{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 /* KRAJ CSS ZA SPONZORE */
+
+/* POČETAK CSS ZA PRODUCT DISPLAY */
+#product-display{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 5rem;
+}
+
+#product-display h1{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+}
+
+#product-display h5{
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5rem;
+    font-size: 20px;
+    color: white;
+    background-color: #00019E;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#product-display h5:hover{
+    background-color: #000129;
+}
+
+
+
+/* KRAJ CSS ZA PRODUCT DISPLAY */
