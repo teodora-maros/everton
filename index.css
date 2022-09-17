@@ -230,10 +230,11 @@ header #logo{
   }
 
 #official-sponsors{
-    padding-top: 15rem;
+    padding-top: 3rem;
     width: 50%;
     text-align: center;
     margin: auto;
+    margin-top: 50rem;
     font-size: 70px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -267,6 +268,76 @@ header #logo{
     background-color: #000129;
 }
 
-
-
 /* KRAJ CSS ZA PRODUCT DISPLAY */
+
+/* POČETAK CSS ZA NEWS DISPLAY */
+#story-one{
+    height: 500px;
+    background-image: linear-gradient(rgba(48, 48, 48, 0.700),rgba(48, 48, 48, 0.700)),  url("images/gordon.jpg");
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+#story-one h3{
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    font-size: 45px;
+    margin-left: 2%;
+    margin-top: 300px;
+}
+
+#story-one h3:hover {
+    color: #000129;
+}
+
+#story-one h5{
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 420px;
+}
+
+#story-two{
+    height: 500px;
+    background-image: linear-gradient(rgba(48, 48, 48, 0.700),rgba(48, 48, 48, 0.700)),  url("images/iwobi2.jpg");
+    color: white;
+    width: 50%;
+    float: right;
+}
+
+#story-two h3{
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    font-size: 45px;
+    margin-left: 2%;
+    margin-top: 250px;
+}
+
+#story-two h3:hover {
+    color: #000129;
+}
+
+#story-two h5{
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 420px;
+}
+
+
+#main-stories{
+    margin-top: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: white;
+}
+
+/* KRAJ CSS ZA NEWS DISPLAY */
