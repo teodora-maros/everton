@@ -1,0 +1,211 @@
+/* POČETAK CSS ZA HEADER I FOOTER KOJI JE NA SAVKOJ STRANICI */
+body{
+    color: black;
+    margin: 0;
+}
+
+/* header */
+#main-header{
+    background-color: #00019E;
+    height: 9rem;
+    width: 100%;
+    align-items: center;
+}
+
+header #logo{
+    display: block;
+    float: left;
+    padding-top: 1.6rem;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 100px;
+}
+
+#sponsor{
+    padding-top: 10px;
+    display: block;
+    float: right;
+    margin-right: 5%;
+    margin-left: auto;
+    width: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#navbar{
+    display: table;
+    background-color: #00019E;
+    border-top: solid 1px white;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar li {
+    list-style: none;
+    float: left;
+    margin-bottom: 15px;
+}
+  
+#navbar a {
+    margin: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+#active a{
+    padding-bottom: 11px;
+    border-bottom: white 4px solid;
+}
+
+#navbar a:hover{
+    color: #000129;
+}  
+
+#active a:hover{
+    color: white;
+}
+
+
+/* footer */
+#footer{
+    margin-top: 2rem;
+    background-color: #00019E;
+    height: 8rem;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#footer h2{
+    color: white;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    float: left;
+    margin-left: 1%;
+    margin-right: auto;
+}
+
+#simplistic-logo{
+    height: 80px;
+    float: left;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-top: 1rem;
+}
+
+#socials-icons{
+    margin-right: 2rem;
+    float: right;
+}
+
+#socials-icons img{
+    width: 25px;
+    height: 25px;
+}
+
+#socials-icons li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 3.5rem;
+    float: left;
+}
+
+#copyright{
+    background-color: #000129;
+    width: 100%;
+    height: 40px;
+    margin-top: 8rem;
+    position: absolute;
+
+}
+
+#copyright p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
+    letter-spacing: -1px;
+}
+
+#footer-navbar{
+    width: auto;
+    margin-top: 10px;
+    float: right;
+}
+
+#footer-navbar li{
+    list-style: none;
+    float: left;
+}
+
+#footer-navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 30px;
+    letter-spacing: -1px;
+}
+
+#footer-navbar a:hover{
+    color: #00019E;
+}
+/* KRAJ CSS ZA HEADER I FOOTER KOJI JE NA SAVKOJ STRANICI */
+
+
+/* POČETAK CSS ZA TABLICU*/
+#pl-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 5rem;
+}
+
+
+table{
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10rem;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+  }
+
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+th{
+    text-align: center;
+    vertical-align: middle;
+    color: #000129;
+}
+
+.relegation {
+    border-left: red 5px solid;
+  }
+
+.cl {
+    border-left: blue 5px solid;
+  }
+
+.el {
+    border-left: orangered 5px solid;
+  }
+
+/*KRAJ CSS ZA TABLICU */
