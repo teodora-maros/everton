@@ -170,15 +170,15 @@ header #logo{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 
 table{
-    width: 80%;
+    width: 75%;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 tr:nth-child(even) {
@@ -205,7 +205,46 @@ th{
   }
 
 .el {
-    border-left: orangered 5px solid;
+    border-left: orange 5px solid;
   }
+
+#legend{
+    width: 50%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15rem;
+}
+
+#legend li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    width: 150px;
+}
+
+#blue_square{
+    background-color: blue;
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#red_square{
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#orange_square{
+    background-color: orange;
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-right: 10px;
+}
 
 /*KRAJ CSS ZA TABLICU */
