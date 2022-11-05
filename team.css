@@ -131,7 +131,7 @@ header #logo{
 
 #goalies h2, #defenders h2, #mid h2, #forwards h2, #loan h2{
     padding-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     margin-left: 4%;
     font-size: 40px;
     color: #00019E;
@@ -152,7 +152,7 @@ header #logo{
 
 #goalies img, #defenders img, #mid img, #forwards img, #loan img{
     width: 200px;
-    background-color: #000129;
+    background: linear-gradient(0deg, rgb(40, 42, 179) 0%, rgba(0,1,41,1) 60%, rgba(0,1,41,1) 100%);
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
